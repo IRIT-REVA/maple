@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=61",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maple"
+version = "0.1.0"
+authors = [{ name='IRIT-REVA', email='vsukhorukov@yahoo.com'}]
+description = "MEA Analysis Pipeline"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    'h5py',
+    'matplotlib',
+    'numpy',
+    'plotly',
+    'scikit-learn',
+    'scipy',
+    'spyking-circus',
+    'PyQt5'
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
